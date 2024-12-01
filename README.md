@@ -1,4 +1,4 @@
-# TextGenSrpski
+# TextGenSerbia
 This project aims to build a special GPT model just for the Serbian language. It will have a tool to break up text into smaller parts (called SentencePiece) and a script to train the model from the beginning using PyTorch. The training will use Serbian text taken from a collection of books.
 
 trainSentencepiece.py: This script prepares the data and trains a tokenizer using SentencePiece. It creates a tokenizer model that will be used to tokenize text into tokens tailored for the corpus.
